@@ -7,3 +7,4 @@ C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Dominio\obj\Debug\netcoreapp3.1\Ap
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Dominio\obj\Debug\netcoreapp3.1\ApiCovid.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Dominio\obj\Debug\netcoreapp3.1\ApiCovid.Dominio.dll
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Dominio\obj\Debug\netcoreapp3.1\ApiCovid.Dominio.pdb
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Dominio\obj\Debug\netcoreapp3.1\ApiCovid.Dominio.GeneratedMSBuildEditorConfig.editorconfig

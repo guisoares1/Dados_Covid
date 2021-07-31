@@ -7,7 +7,7 @@ using System;
 
 namespace ApiCovid.Dominio.Servicos
 {
-    public class CasosServico : IServico
+    public class CasosServico : IServicoDados
     {
         private IBancoDados _banco;
         public CasosServico(IBancoDados banco)
@@ -24,14 +24,9 @@ namespace ApiCovid.Dominio.Servicos
         {
             var PeriodoSolicitado = new DataInicioFim(IdSemana);
             var Dados = _banco.RegistrosPorPeriodo(PeriodoSolicitado);
-            int Media = MediaSemanalMortes.CalculaMediaSemana(Dados);
+            int Media = MediaSemanalMortes.CalculaMediaSemanaCasos(Dados);
 
             return Media;
-        }
-
-        public static implicit operator CasosServico(MortesServico v)
-        {
-            throw new NotImplementedException();
         }
     }
 }

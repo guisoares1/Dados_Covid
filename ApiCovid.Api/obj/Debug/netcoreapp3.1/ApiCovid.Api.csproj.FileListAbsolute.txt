@@ -40,3 +40,8 @@ C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Api\bin\Debug\netcoreapp3.1\Swashb
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Api\obj\Debug\netcoreapp3.1\ApiCovid.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Api\bin\Debug\netcoreapp3.1\Refit.dll
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Api\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Api\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Api\obj\Debug\netcoreapp3.1\ApiCovid.Api.GeneratedMSBuildEditorConfig.editorconfig

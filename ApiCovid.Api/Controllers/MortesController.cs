@@ -2,7 +2,6 @@
 using ApiCovid.Dominio.Servicos;
 using ApiCovid.Infra.BancoDeDados;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 namespace ApiCovid.Controllers
 {

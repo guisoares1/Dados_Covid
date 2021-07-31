@@ -31,6 +31,8 @@ namespace ApiCovid.Api
         {
             if (env.IsDevelopment())
             {
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApiCovid.Api v1"));
                 app.UseDeveloperExceptionPage();
             }
 
@@ -45,8 +47,7 @@ namespace ApiCovid.Api
                 endpoints.MapControllers();
             });
             
-            app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApiCovid.Api v1"));
         }
+
     }
 }

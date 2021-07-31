@@ -13,4 +13,8 @@
     <ProjectReference Include="..\ApiCovid.Dominio\ApiCovid.Dominio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Metodos\" />
+  </ItemGroup>
+
 </Project>

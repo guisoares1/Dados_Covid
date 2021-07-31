@@ -10,11 +10,11 @@ namespace ApiCovid.Api.Controllers
     [Route("api/[controller]")]
     public class CasosController : Controller
     {
-        private IServico _servico;
+        private IServicoDados _servico;
 
         public CasosController()
         {
-            _servico = new MortesServico(new CasosBanco());
+            _servico = new CasosServico(new CasosBanco());
         }
 
         [HttpPost]

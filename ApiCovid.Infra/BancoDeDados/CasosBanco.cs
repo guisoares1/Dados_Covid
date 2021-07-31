@@ -20,11 +20,12 @@ namespace ApiCovid.Infra.BancoDeDados
 
             comando.Connection = Conexao.ObterConexao();
             comando.ExecuteNonQuery();
+            Conexao.FecharConexao(comando.Connection);
         }
 
         public DataTable RegistrosPorPeriodo(DataInicioFim periodo)
         {
-            var sql = "SELECT quantidade_casos FROM casos_covid WHERE (data_dado BETWEEN @inicio AND @fim)";
+            var sql = "SELECT quantidade_casos FROM casos_covid WHERE (data_dado BETWEEN date(@inicio) AND date(@fim))";
             var comando = new MySqlCommand(sql);
             MySqlDataReader Leitor;
             DataTable table = new DataTable();
@@ -39,6 +40,30 @@ namespace ApiCovid.Infra.BancoDeDados
             Conexao.FecharConexao(comando.Connection);
 
             return table;
+        }
+
+        public DateTime DataUltimoRegistroInserido()
+        {
+            var sql = "SELECT data_dado FROM casos_covid ORDER BY id DESC LIMIT 1";
+            var comando = new MySqlCommand(sql);
+            string UltimaData;
+            MySqlDataReader Leitor;
+            comando.Connection = Conexao.ObterConexao();
+
+            Leitor = comando.ExecuteReader();
+            if (Conexao.TrataSerRegistroExiste(Leitor))
+            {
+
+                Leitor.Read();
+                UltimaData = Leitor["data_dado"].ToString();
+            }
+            else
+            {
+                UltimaData = DateTime.MinValue.ToString();
+            }
+
+            Conexao.FecharConexao(comando.Connection);
+            return Convert.ToDateTime(UltimaData); ;
         }
     }
 }

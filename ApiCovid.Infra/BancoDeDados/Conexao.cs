@@ -15,5 +15,10 @@ namespace SysPed.Infra.Dados
         {
             mysqlConnection.Close();
         }
+
+        public static bool TrataSerRegistroExiste(MySqlDataReader Leitor)
+        {
+            return (Leitor.HasRows);
+        }
     }
 }

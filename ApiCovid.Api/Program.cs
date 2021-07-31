@@ -1,19 +1,20 @@
+using ApiCovid.Dominio.Interface.Banco;
+using ApiCovid.Dominio.Servicos;
+using ApiCovid.Infra.BancoDeDados;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace ApiCovid.Api
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public async static Task Main(string[] args)
         {
+
+        //    await AtualizaDadosComRepositorioExterno();
             CreateHostBuilder(args).Build().Run();
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -22,5 +23,14 @@ namespace ApiCovid.Api
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+        /*
+          private static async Task AtualizaDadosComRepositorioExterno()
+          {
+              var atualiza = new CovidResponseService();
+            /  await atualiza.AtualizaBaseDadosApiExternaCasos(new CasosBanco());
+              await atualiza.AtualizaBaseDadosApiExternaMortes(new MorteBanco());
+          }
+        */
     }
 }

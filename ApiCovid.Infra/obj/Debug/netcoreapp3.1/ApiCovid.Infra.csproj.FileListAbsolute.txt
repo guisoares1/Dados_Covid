@@ -10,3 +10,4 @@ C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiC
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Infra\bin\Debug\netcoreapp3.1\ApiCovid.Dominio.dll
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Infra\bin\Debug\netcoreapp3.1\ApiCovid.Dominio.pdb
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.csproj.CopyComplete
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.GeneratedMSBuildEditorConfig.editorconfig

@@ -120,3 +120,7 @@ C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Test\bin\Debug\netcoreapp3.1\runti
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Test\bin\Debug\netcoreapp3.1\Refit.dll
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Test\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Test\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Test\obj\Debug\netcoreapp3.1\ApiCovid.Test.GeneratedMSBuildEditorConfig.editorconfig

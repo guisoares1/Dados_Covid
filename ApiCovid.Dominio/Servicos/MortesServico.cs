@@ -6,7 +6,7 @@ using ApiCovid.Dominio.Objetos_base;
 
 namespace ApiCovid.Dominio.Servicos
 {
-    public class MortesServico : IServico
+    public class MortesServico : IServicoDados
     {
         private IBancoDados _banco;
         public MortesServico(IBancoDados banco)
@@ -26,7 +26,7 @@ namespace ApiCovid.Dominio.Servicos
             // fazer somatorio com os registros retonados no passo anterior
             var PeriodoSolicitado = new DataInicioFim(IdSemana);
             var Dados = _banco.RegistrosPorPeriodo(PeriodoSolicitado);
-            int Media = MediaSemanalMortes.CalculaMediaSemana(Dados);
+            int Media = MediaSemanalMortes.CalculaMediaSemanaMortes(Dados);
 
             return Media;
         }

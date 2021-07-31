@@ -1,9 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data;
+using System.Net.Http;
+using System.Threading.Tasks;
 using ApiCovid.Dominio.Interface.Banco;
 using ApiCovid.Dominio.Interface.Objeto_base;
 using ApiCovid.Dominio.Objetos_base;
 using MySql.Data.MySqlClient;
+using Newtonsoft.Json;
 using SysPed.Infra.Dados;
 
 namespace ApiCovid.Infra.BancoDeDados
@@ -19,6 +23,7 @@ namespace ApiCovid.Infra.BancoDeDados
 
             comando.Connection = Conexao.ObterConexao();
             comando.ExecuteNonQuery();
+            Conexao.FecharConexao(comando.Connection);
         }
 
         public DataTable RegistrosPorPeriodo(DataInicioFim periodo)
@@ -38,6 +43,29 @@ namespace ApiCovid.Infra.BancoDeDados
             Conexao.FecharConexao(comando.Connection);
 
             return table;
+        }
+
+        public DateTime DataUltimoRegistroInserido()
+        {
+            var sql = "SELECT data_dado FROM mortos_covid ORDER BY id DESC LIMIT 1";
+            var comando = new MySqlCommand(sql);
+            string UltimaData;
+            MySqlDataReader Leitor;
+            comando.Connection = Conexao.ObterConexao();
+
+            Leitor = comando.ExecuteReader();
+            if (Conexao.TrataSerRegistroExiste(Leitor))
+            {
+
+                Leitor.Read();
+                UltimaData = Leitor["data_dado"].ToString();
+            }
+            else
+            {
+                UltimaData = DateTime.MinValue.ToString();
+            }
+
+            return Convert.ToDateTime(UltimaData); ;
         }
     }
 }
