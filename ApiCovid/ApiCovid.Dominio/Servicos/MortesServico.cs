@@ -1,9 +1,7 @@
 ﻿using ApiCovid.Dominio.Interface.Banco;
 using ApiCovid.Dominio.Interface.Objeto_base;
 using ApiCovid.Dominio.Interface.Servicos;
-using ApiCovid.Dominio.Metodos;
 using ApiCovid.Dominio.Objetos_base;
-using System;
 using System.Collections.Generic;
 
 namespace ApiCovid.Dominio.Servicos

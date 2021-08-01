@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ApiCovid.Dominio.Objetos_base
+﻿namespace ApiCovid.Dominio.Objetos_base
 {
     public class MediaSemana
     {

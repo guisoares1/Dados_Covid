@@ -1,8 +1,7 @@
-﻿using ApiCovid.Dominio.Interface.Servicos;
-using System;
+﻿using System;
 using System.Data;
 
-namespace ApiCovid.Dominio.Metodos
+namespace ApiCovid.Dominio.Servicos
 {
     public class MediaSemanalMortes
     {

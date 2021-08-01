@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Net.Http;
-using System.Threading.Tasks;
 using ApiCovid.Dominio.Interface.Banco;
 using ApiCovid.Dominio.Interface.Objeto_base;
 using ApiCovid.Dominio.Objetos_base;
 using MySql.Data.MySqlClient;
-using Newtonsoft.Json;
 using SysPed.Infra.Dados;
 
 namespace ApiCovid.Infra.BancoDeDados

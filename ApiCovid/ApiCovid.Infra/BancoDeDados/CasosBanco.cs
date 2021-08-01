@@ -4,7 +4,6 @@ using ApiCovid.Dominio.Objetos_base;
 using MySql.Data.MySqlClient;
 using SysPed.Infra.Dados;
 using System;
-using System.Collections.Generic;
 using System.Data;
 
 namespace ApiCovid.Infra.BancoDeDados
