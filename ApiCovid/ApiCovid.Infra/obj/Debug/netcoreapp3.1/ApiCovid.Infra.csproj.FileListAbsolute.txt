@@ -11,3 +11,16 @@ C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Infra\bin\Debug\netcoreapp3.1\ApiC
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Infra\bin\Debug\netcoreapp3.1\ApiCovid.Dominio.pdb
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.csproj.CopyComplete
 C:\Users\guilh\source\repos\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\bin\Debug\netcoreapp3.1\ApiCovid.Infra.deps.json
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\bin\Debug\netcoreapp3.1\ApiCovid.Infra.dll
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\bin\Debug\netcoreapp3.1\ApiCovid.Infra.pdb
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\bin\Debug\netcoreapp3.1\ApiCovid.Dominio.dll
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\bin\Debug\netcoreapp3.1\ApiCovid.Dominio.pdb
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.csproj.AssemblyReference.cache
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.AssemblyInfoInputs.cache
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.AssemblyInfo.cs
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.csproj.CopyComplete
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.dll
+C:\Users\guilh\Desktop\trabalho\.net\Dados_Covid\ApiCovid\ApiCovid.Infra\obj\Debug\netcoreapp3.1\ApiCovid.Infra.pdb

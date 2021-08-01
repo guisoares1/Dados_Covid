@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RlZcWbOzE2iQPB5gP33qE/dPM2XPNVnVAINmh4/ri7Pkt0fars4Lku7R++8hGOrmCvUIQYB7LtTi9oGdHHt4rQ==",
+  "dgSpecHash": "qLUvY8g/xWS5AKD6chwGrmppnymMgYmHIdOZjzX7WUDc7DorwGmA++OcUTUhk9Iafq5FPsRw3EN4zWEDBl2Ldw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guilh\\.nuget\\packages\\expectedobjects\\3.5.3\\expectedobjects.3.5.3.nupkg.sha512",
     "C:\\Users\\guilh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

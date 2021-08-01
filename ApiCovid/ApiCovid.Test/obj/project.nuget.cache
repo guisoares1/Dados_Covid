@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U5O72IgASxL/wOJLiPiJAW3EIeOau4+CL957xmPFdO2FsBMv6SizH1h5f6Qe9rU+m0XrF8aKUTs2EPkcD6a2PQ==",
+  "dgSpecHash": "qJgSxBruWp7ZTfnehHrJm3PFgUpH3sXWwfuIRcZJBiloUHCMfxx7Ec8Ye+S4YBK3sKWiUzTBZCEhfw5f4PTMXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Test\\ApiCovid.Test.csproj",
+  "projectFilePath": "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Test\\ApiCovid.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guilh\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\guilh\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BCf+1VPsrupVUybH08vXY7C9iJ8tx+iE28JtZnoDkOdDl+8IbQ4O/ORbC/zFrbDt3LT2HfG2SRD1Slnozx4JQA==",
+  "dgSpecHash": "l2RWgzUqXD7wyCFx7KGYtFM9MGCttxS1U4Y8wWg36L0aMejUGjKzSSGphYB7Cynnhz6cFUY3gYzg9YBZqKdmSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Infra\\ApiCovid.Infra.csproj",
+  "projectFilePath": "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Infra\\ApiCovid.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guilh\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\guilh\\.nuget\\packages\\expectedobjects\\3.5.3\\expectedobjects.3.5.3.nupkg.sha512",

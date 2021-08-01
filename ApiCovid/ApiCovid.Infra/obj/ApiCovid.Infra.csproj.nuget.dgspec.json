@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Infra\\ApiCovid.Infra.csproj": {}
+    "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Infra\\ApiCovid.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj": {
+    "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj",
         "projectName": "ApiCovid.Dominio",
-        "projectPath": "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj",
+        "projectPath": "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj",
         "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Infra\\ApiCovid.Infra.csproj": {
+    "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Infra\\ApiCovid.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Infra\\ApiCovid.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Infra\\ApiCovid.Infra.csproj",
         "projectName": "ApiCovid.Infra",
-        "projectPath": "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Infra\\ApiCovid.Infra.csproj",
+        "projectPath": "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Infra\\ApiCovid.Infra.csproj",
         "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Infra\\obj\\",
+        "outputPath": "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,8 +96,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj": {
-                "projectPath": "C:\\Users\\guilh\\source\\repos\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj"
+              "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj": {
+                "projectPath": "C:\\Users\\guilh\\Desktop\\trabalho\\.net\\Dados_Covid\\ApiCovid\\ApiCovid.Dominio\\ApiCovid.Dominio.csproj"
               }
             }
           }
