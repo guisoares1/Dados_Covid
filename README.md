@@ -19,3 +19,9 @@ Foi feito em React. Foi criado 4 abas para apresentação separada das informaç
 Para cálculo da média móvel foi utilizado a seguinte formula:
 
 ![alt text](https://github.com/guisoares1/Imagens/blob/main/3.png)
+
+Prints da pagina WEB:
+
+![alt text](https://github.com/guisoares1/Imagens/blob/main/1.png)
+
+![alt text](https://github.com/guisoares1/Imagens/blob/main/2.png)
