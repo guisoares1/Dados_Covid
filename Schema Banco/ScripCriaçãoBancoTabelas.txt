@@ -1,0 +1,15 @@
+CREATE DATABASE dadoscovid;
+
+CREATE TABLE mortos_covid(
+id INTEGER AUTO_INCREMENT,
+quantidade_mortes int NOT NULL,
+data_dado date NOT NULL,
+PRIMARY KEY (id)
+);
+
+CREATE TABLE casos_covid(
+id INTEGER AUTO_INCREMENT,
+quantidade_casos int NOT NULL,
+data_dado date NOT NULL,
+PRIMARY KEY (id)
+);
