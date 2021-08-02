@@ -17,4 +17,5 @@ Para a utilização do front-end, foi criado um get() de mortes e casos, onde é
 Foi feito em React. Foi criado 4 abas para apresentação separada das informações. 
 
 Para cálculo da média móvel foi utilizado a seguinte formula:
+
 ![alt text](https://github.com/guisoares1/Imagens/blob/main/3.png)
