@@ -30,7 +30,7 @@ namespace ApiCovid.Test.TesteInfra
                 Data.Rows.Add(item);
 
             }
-            teste = MediaSemanalMortes.CalculaMediaSemanaMortes(Data);
+            teste = MediaSemanal.CalculaMediaSemanaMortes(Data);
 
             Assert.True(teste==10);
         }
@@ -58,7 +58,7 @@ namespace ApiCovid.Test.TesteInfra
                 Data.Rows.Add(item);
 
             }
-            teste = MediaSemanalMortes.CalculaMediaSemanaCasos(Data);
+            teste = MediaSemanal.CalculaMediaSemanaCasos(Data);
 
             Assert.True(teste == 10);
         }

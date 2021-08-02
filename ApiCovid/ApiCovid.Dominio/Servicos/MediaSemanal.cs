@@ -3,7 +3,7 @@ using System.Data;
 
 namespace ApiCovid.Dominio.Servicos
 {
-    public class MediaSemanalMortes
+    public class MediaSemanal
     {
         public static int CalculaMediaSemanaMortes(DataTable Dados)
         {   

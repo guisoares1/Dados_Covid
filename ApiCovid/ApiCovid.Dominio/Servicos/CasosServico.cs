@@ -26,7 +26,7 @@ namespace ApiCovid.Dominio.Servicos
 
             var PeriodoSolicitado = new DataInicioFim(IdSemana);
             var Dados = _banco.RegistrosPorPeriodo(PeriodoSolicitado);
-            int Media = MediaSemanalMortes.CalculaMediaSemanaCasos(Dados);
+            int Media = MediaSemanal.CalculaMediaSemanaCasos(Dados);
             List<MediaSemana> Retorno = new List<MediaSemana>();
             Retorno.Add(new MediaSemana(Media, PeriodoSolicitado));
 
