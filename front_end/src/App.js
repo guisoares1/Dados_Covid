@@ -12,9 +12,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="container">
-        <h3 className = "m-3 d-flex justify-content-center">
+        <h1 className = "m-3 d-flex justify-content-center">
           Média móvel Covid-19 
-        </h3> 
+        </h1> 
 
         <Navigation/>
         <Switch>
