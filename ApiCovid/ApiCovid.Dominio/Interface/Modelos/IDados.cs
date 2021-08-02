@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ApiCovid.Dominio.Interface.Objeto_base
 {
