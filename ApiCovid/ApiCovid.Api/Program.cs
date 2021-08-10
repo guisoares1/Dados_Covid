@@ -27,9 +27,9 @@ namespace ApiCovid.Api
         
         private static async Task AtualizaDadosComRepositorioExterno()
         {
-            var atualiza = new CovidResponseService();
-            await atualiza.AtualizaBaseDadosApiExternaCasos(new CasosBanco());
-            await atualiza.AtualizaBaseDadosApiExternaMortes(new MorteBanco());
+            var covidResponseService = new CovidResponseService();
+            await covidResponseService.AtualizaBaseDadosApiExternaCasos(new CasosBanco());
+            await covidResponseService.AtualizaBaseDadosApiExternaMortes(new MorteBanco());
         }
         
     }
