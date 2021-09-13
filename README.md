@@ -1,6 +1,6 @@
 # Objetivo
 
-Capturar dados de mortes e casos de COVID-19 dos últimos 6 meses no endpoints [CovidPostmam](https://documenter.getpostman.com/view/10808728/SzS8rjbc). Com esses dados deve ser mostrado uma média móvel de cada um dos tipos inseridos, separados por semanas (3).
+Capturar dados de mortes e casos de COVID-19 dos últimos 6 meses no endpoints [CovidPostmam](https://documenter.getpostman.com/view/10808728/SzS8rjbc). Com esses dados deve ser mostrado uma média móvel de cada um dos tipos inseridos, separados por semanas.
 
 # Descrição
 
